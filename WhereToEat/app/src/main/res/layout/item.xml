@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="20dp"
+    app:cardCornerRadius="8dp"
+    android:backgroundTint="#DEDAD1"
+    android:layout_gravity="center"
+    android:layout_margin="16dp">
+
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="130dp"
+        android:fontFamily="@font/rubik_light"
+        android:text="143 Flores Ave, Dumaguete, 6200 Negros Oriental	PP	Cafe	66	4.2	9.321681453	123.3129573"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/rubik_light"
+        android:paddingTop="210dp"
+        android:paddingLeft="10dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/rubik_light"
+        android:paddingTop="210dp"
+        android:paddingLeft="10dp"
+        android:text="P"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvRestoName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/rubik_black"
+        android:paddingTop="25dp"
+        android:text="Casablanca Restaurant Dumaguete - Cafe Bar and Fine Dining"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnGmap"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#3DC08C"
+        android:drawableLeft="@drawable/baseline_directions_24"
+        android:text="Directions" />
+</androidx.cardview.widget.CardView>

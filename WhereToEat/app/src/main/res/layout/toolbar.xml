@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toolbarbg"
+    android:elevation="10dp"
+    tools:ignore="ExtraText">
+    /* don't forget to have:
+    the white_bg.xml
+    for imageview, baseline_arrow_back.xmls are vector asset
+    for fonts, download rubik sa design window, you can add there
+    */
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="35dp">
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/rubik_mono_one"
+            android:text="Where to Eat"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
